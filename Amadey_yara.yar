@@ -18,7 +18,7 @@ rule amadey_CTI {
 	condition:
 		uint16(0) == 0x5A4D
 		and pe.version_info["OriginalFilename"] contains "Gzcueoarue.exe"
-		//and pe.imports["ICryptoTransform"; "MutexRights"; "RandomNumberGenerator"; "MemoryStream"]
+		and pe.imports("mscoree.dll")
 		and pe.imphash() == "f34d5f2d4577ed6d9ceec516c1f5a744"
 		and all of ($a*) and $h1
 		
