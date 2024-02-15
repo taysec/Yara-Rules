@@ -2,9 +2,9 @@ import "pe"
 
 rule NjRAT_detection {
 	meta:
+		Description = "Regla para identificar muestra activa de NjRAT"
 		Author = "Mnemo_CTI"
 		Date = "2024-02-15"
-		Description = "Regla para identificar muestra activa de NjRAT"
 		sha1 = "F0CD78B2E7D47C673DED49819D06AAB70991014D"
 		
 	strings:
