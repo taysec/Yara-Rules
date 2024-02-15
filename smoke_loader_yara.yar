@@ -2,9 +2,9 @@ import "pe"
 
 rule Smoke_loader_detection {
 	meta:
+		Description = "Regla para deteccion de Smoke Loader activo"
 		Author = "CTI_Mnemo"
 		Date = "2024-02-15"
-		Description = "Regla para deteccion de Smoke Loader activo"
 		sha1 = "2014FAF33C80FD5A5A187C99A202444263445DD0"
 	
 	strings:
