@@ -3,9 +3,9 @@ import "dotnet"
 
 rule Asyncrat {
 	meta:
+		Description = "Regla para identificar muestra de AsyncRat"
 		Autor = "CTI_Mnemo" 
 		Date = "2024-02-15"
-		Description = "Regla para identificar muestra de AsyncRat"
 		Hash= "sha256,0E948E3D83E22DF165AFAC4DA052B45297F719A33F86C4C194958F59DAD75A28"
 		
 	strings:
